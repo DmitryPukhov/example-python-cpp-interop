@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build-debug",
+            "type": "shell",
+            "command": "cd build && cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_VERBOSE_MAKEFILE=ON .. && make",
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "options": {
+                "env": {
+                    "CC": "gcc",
+                    "CXX": "g++"
+                }
+            }
+        },       
+    ]
+}

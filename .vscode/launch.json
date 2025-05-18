@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debug",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/python/pythonapp.py",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/build",
+                "LD_LIBRARY_PATH": "${workspaceFolder}/build",
+                "LD_BIND_NOW": "1"
+            },
+            "preLaunchTask": "build-debug"
+        }       
+    ]
+}

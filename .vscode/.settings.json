@@ -1,0 +1,16 @@
+{
+    "cmake.configureOnOpen": true,
+    "cmake.buildDirectory": "${workspaceFolder}/build",
+    "cmake.buildBeforeRun": true,
+     
+    "python.pythonPath": "${workspaceFolder}/build",
+    "files.associations": {
+        "*.hpp": "cpp",
+        "*.ipp": "cpp"
+    },
+    "debug.allowBreakpointsEverywhere": true,
+    "python.debug.justMyCode": false,
+    "debug.toolBarLocation": "docked",
+    "debug.showInStatusBar": "always",
+    "debug.internalConsoleOptions": "openOnSessionStart"
+}
